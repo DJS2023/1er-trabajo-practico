@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <title>CV</title>
+</head>
+
+<body>
+    <!-- header -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="">Dylan Rice</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobremi">Sobre mi</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#curriculum">Curriculum</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive">
+                <i class="fa-solid fa-bars-staggered"></i>
+        </header>
+    </div>
+    <!-- inicio -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="https://randomuser.me/api/portraits/men/71.jpg" alt="">
+            </div>
+            <h1> Dylan Rice</h1>
+            <h2>MIS REDES</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://chat.whatsapp.com">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- sobre la seccion -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre mi</h2>
+            <p>
+                <span>
+                    Hola, soy Dylan Rice
+                </span>
+                Estoy realizando el curso de argentina programa 4.0
+            </p>
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumleaños:</strong>
+                            9/11/1976
+                        </li>
+                        <li>
+                            <strong>Teléfono:</strong>
+                            (931) 589-1109
+                        </li>
+                        <li>
+                            <strong>Email:</strong>
+                            dylan.rice@example.com
+                        </li>
+                        <li>
+                            <strong>Direccion:</strong>
+                            3032 Shady Ln Dr
+                        </li>
+                    </ul>
+                </div>
+                <!-- intereses -->
+                <div class="col">
+                    <h3>
+                        Intereses
+                    </h3>
+                    <div class="contenido-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-music"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-feather"></i>
+                            <span>ESCRIBIR</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-cat"></i>
+                            <span>ANIMALES</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-computer"></i>
+                            <span>PROGRAMAR</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-microchip"></i>
+                            <span>TECNOLOGIA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-dollar"></i>
+                            <span>INVERSIONES</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form method="get" action="assets/CV.pdf">
+                <button classname="form" type="submit">
+                    Descargar CV
+                    <i class="fa-solid fa-download"></i>
+                    <span class="overlay"> </span>
+                </button>
+            </form>
+        </div>
+    </section>
+    <!-- skills -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades Tecnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>20%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades Blandas</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- curriculum -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>primaria</h4>
+                        <span class="casa">escuela n° 37 "malvinas argentinas"</span>
+                        <span class="fecha">1982-1989</span>
+                        <p>primaria</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>escuela secundaria</h4>
+                        <span class="casa">enet n°4</span>
+                        <span class="fecha">1990-1996</span>
+                        <p>electricidad con orientacion electronica</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>trabajo microsoft</h3>
+                    <div class="item der">
+                        <h4>silicon valley</h4>
+                        <span class="casa">programador</span>
+                        <span class="fecha">1999 - 2020</span>
+                        <p>Encargado de la creacion de nuevos programas</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>     
+Derechos Reservados DIEGO J S Company &copy; 2023   
+</footer>
+</body>
+
+</html>
